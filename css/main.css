@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+  }
+  
+  .emoji {
+    border: 1px solid #222;
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  
+  .emoji h2 {
+    margin: 0;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .emoji a {
+    text-decoration: none;
+    background-color: #781BAA;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .icon {
+    font-size: 4rem;
+  }
+
+  /* My stuff */
+
+  /* adds four columns */
+  .emojis {
+    display: grid;
+        grid-template-columns: repeat(2, 500px);
+        gap: 20px;
+  }
+
+  /* adds a way to controll the inside of the grid */
+  .emoji {
+   display: flex;
+   flex-wrap:wrap;
+  }
+
+  /* adds the emoji to the center at the top */
+  .icon {
+    order: 1;
+    flex-basis: 100%;
+    margin-left: 40%;
+  }
+
+
+  /* adds h2 under the emoji */
+  .emoji h2 {
+    order: 2;
+    flex-basis: 100%;  
+
+  }
+
+  /* adds the paragraph on the third order */
+  .emoji p {
+    order: 3;
+    flex-basis: 100%;
+  }
+
+  /* adds anchor tag at bottom */
+  .emoji a {
+    order: 4;
+    flex-basis: 100%;
+  }
+  
+/* need to find a way to even the seedling the same as all the other grids */
