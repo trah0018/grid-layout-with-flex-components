@@ -20,10 +20,12 @@ body {
     color: white;
     padding: 1rem;
     border-radius: 8px;
+    margin-top: auto;
   }
   
   .icon {
     font-size: 4rem;
+ 
   }
 
   /* My stuff */
@@ -32,40 +34,33 @@ body {
   .emojis {
     display: grid;
         grid-template-columns: repeat(2, 500px);
+        grid-template-rows: 300px 340px;
         gap: 20px;
   }
 
   /* adds a way to controll the inside of the grid */
   .emoji {
    display: flex;
-   flex-wrap:wrap;
+   flex-direction: column;
+ 
   }
+
+  
 
   /* adds the emoji to the center at the top */
   .icon {
-    order: 1;
-    flex-basis: 100%;
-    margin-left: 40%;
+    display: flex;
+   order: -1;
+   justify-content: center;
   }
 
 
-  /* adds h2 under the emoji */
-  .emoji h2 {
-    order: 2;
-    flex-basis: 100%;  
 
-  }
 
-  /* adds the paragraph on the third order */
-  .emoji p {
-    order: 3;
-    flex-basis: 100%;
-  }
 
-  /* adds anchor tag at bottom */
-  .emoji a {
-    order: 4;
-    flex-basis: 100%;
-  }
   
+  
+ 
+
+
 /* need to find a way to even the seedling the same as all the other grids */
