@@ -50,8 +50,23 @@ body {
   /* adds the emoji to the center at the top */
   .icon {
     display: flex;
-   order: -1;
+   order: 1;
    justify-content: center;
+  }
+
+  h2 {
+    display: flex;
+    order: 2;
+  }
+
+  p {
+    display: flex;
+    order: 3;
+  }
+
+  a {
+    display: flex;
+    order: 4;
   }
 
 
