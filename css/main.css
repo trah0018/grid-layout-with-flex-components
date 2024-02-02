@@ -52,7 +52,7 @@ body {
     display: flex;
    order: 1;
    justify-content: center;
-  }
+  }       
 
   h2 {
     display: flex;
@@ -68,14 +68,3 @@ body {
     display: flex;
     order: 4;
   }
-
-
-
-
-
-  
-  
- 
-
-
-/* need to find a way to even the seedling the same as all the other grids */
